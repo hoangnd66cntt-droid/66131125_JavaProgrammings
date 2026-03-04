@@ -1,4 +1,4 @@
-package   Bai5Vonglap;
+package  Bai5Vonglap;
 import java.util.Scanner;
 public class kimcuong{
     public static void main(String[] args) {
@@ -23,5 +23,6 @@ public class kimcuong{
         System.out.println(" ");
         m-=2;
         }
+        sc.close();
 }
 }
