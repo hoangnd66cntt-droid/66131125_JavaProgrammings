@@ -1,5 +1,5 @@
-package Bai6_OOP;
-public class concho {
+package   Bai6_OOP;
+public class conmeo {
     public String name;
     public int mau;
     public int tuoi;
@@ -7,7 +7,7 @@ public class concho {
         this.name = name;
         this.tuoi = tuoi;
     }
-    public void sua(){
-        System.out.println("Concho "+tuoi+"tuoi"+"ten: "+ name + " dang sua...");
+    public void meomeo(){
+        System.out.println("Conmeo "+tuoi+"tuoi"+"ten: "+ name + " dang meo meo...");
     }
 }

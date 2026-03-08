@@ -8,6 +8,11 @@ public class Main {
         concho2.nhapthongtin("xidau", 3);
         concho1.sua();
         concho2.sua();
+        conmeo conmeo1 = new conmeo();
+        conmeo conmeo2 = new conmeo();
+        conmeo1.nhapthongtin("Miu", 1);
+        conmeo2.nhapthongtin("Miu2", 2);
+        conmeo1.meomeo();
+        conmeo2.meomeo();  
     }
-    
 }
