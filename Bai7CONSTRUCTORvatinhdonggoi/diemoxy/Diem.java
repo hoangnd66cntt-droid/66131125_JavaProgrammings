@@ -12,8 +12,7 @@ public class Diem {
         this.y = y;
     }
     public double tinhKhoangCach(Diem d) {
-        return Math.sqrt(Math.pow(this.x - d.x, 2) +
-                         Math.pow(this.y - d.y, 2));
+        return Math.sqrt(Math.pow(this.x - d.x, 2) + Math.pow(this.y - d.y, 2));
     }
     public boolean kiemTraTrungNhau(Diem d) {
         return this.x == d.x && this.y == d.y;
