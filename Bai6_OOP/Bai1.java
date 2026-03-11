@@ -12,19 +12,17 @@ class Sach {
         this.soTrang = soTrang;
     }
     public void hienThiBThongTin() {
-        System.out.println("Tên sách: " + tieuDe);
-        System.out.println("Tác giả: " + tacGia);
-        System.out.println("Giá: " + gia + " VNĐ");
-        System.out.println("Số trang: " + soTrang);
-        System.out.println("---------------------------");
+        System.out.println("Ten sach: " + tieuDe);
+        System.out.println("Tac gia: " + tacGia);
+        System.out.println("Gia: " + gia + " VND");
+        System.out.println("So trang: " + soTrang);
     }
 }
 public class Bai1 {
     public static void main(String[] args) {
         Sach sach1 = new Sach("Dế Mèn Phiêu Lưu Ký", "Tô Hoài", 55000, 150);
         Sach sach2 = new Sach("Lão Hạc", "Nam Cao", 40000, 80);
-        Sach sach3 = new Sach("Số Đỏ", "Vũ Trọng Phụng", 65000, 200);
-        System.out.println("--- THÔNG TIN CÁC CUỐN SÁCH ---");
+        Sach sach3 = new Sach("IT", "Stephen King", 165000, 300);
         sach1.hienThiBThongTin();
         sach2.hienThiBThongTin();
         sach3.hienThiBThongTin();
