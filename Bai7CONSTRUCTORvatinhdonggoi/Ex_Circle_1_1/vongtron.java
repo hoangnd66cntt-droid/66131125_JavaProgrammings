@@ -1,6 +1,5 @@
 package Bai7CONSTRUCTORvatinhdonggoi.Ex_Circle_1_1;
-
-public public class vongtron {
+ public class vongtron {
 	private double radius;
 	private String color;
 	public vongtron()
