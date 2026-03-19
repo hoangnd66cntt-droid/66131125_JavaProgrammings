@@ -14,9 +14,6 @@ public int tinhDienTich() {
     return tinhChuVi();
 }
 public String toString() {
-    return "HinhHoc{" +
-            "ten='" + ten + '\'' +
-            ", mauSac='" + mauSac + '\'' +
-            '}';
+    return "HinhHoc:" +"ten=" + ten + ", mauSac='" + mauSac ;
 }
 }
