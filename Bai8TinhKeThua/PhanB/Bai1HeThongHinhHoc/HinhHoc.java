@@ -8,10 +8,10 @@ public class HinhHoc {
         this.mauSac = mauSac;
     }
 public int tinhDienTich() {
-    return dienTich;
+    return tinhDienTich();
     }
     public int tinhChuVi() {
-    return dienTich;
+    return tinhChuVi();
 }
 public String toString() {
     return "HinhHoc{" +
