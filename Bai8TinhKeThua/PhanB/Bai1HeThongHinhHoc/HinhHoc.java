@@ -25,6 +25,7 @@ public void setTen(String ten) {
 public void setMauSac(String mauSac) {
     this.mauSac = mauSac;
 }
+@Override
 public String toString() {
     return "HinhHoc:" +"ten=" + ten + ", mauSac='" + mauSac ;
 }
