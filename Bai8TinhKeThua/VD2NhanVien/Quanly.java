@@ -3,8 +3,7 @@ public class Quanly extends NhanVien {
     private double phuCapChucVu;
     private double heSoKinhNghiem;
     
-    public Quanly(String maNV, String hoTen, double luongCoBan,
-                 double phuCapChucVu, double heSoKinhNghiem) {
+    public Quanly(String maNV, String hoTen, double luongCoBan,double phuCapChucVu, double heSoKinhNghiem) {
         super(maNV, hoTen, luongCoBan);
         this.phuCapChucVu = phuCapChucVu;
         this.heSoKinhNghiem = heSoKinhNghiem;
