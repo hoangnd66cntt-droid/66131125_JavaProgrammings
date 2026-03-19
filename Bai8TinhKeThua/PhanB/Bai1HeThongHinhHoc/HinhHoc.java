@@ -13,6 +13,18 @@ public int tinhDienTich() {
     public int tinhChuVi() {
     return tinhChuVi();
 }
+public String getTen() {
+    return ten;
+}
+public String getMauSac() {
+    return mauSac;
+}
+public void setTen(String ten) {
+    this.ten = ten;
+}
+public void setMauSac(String mauSac) {
+    this.mauSac = mauSac;
+}
 public String toString() {
     return "HinhHoc:" +"ten=" + ten + ", mauSac='" + mauSac ;
 }
