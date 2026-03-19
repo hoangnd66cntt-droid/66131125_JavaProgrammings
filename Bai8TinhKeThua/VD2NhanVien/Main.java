@@ -8,5 +8,8 @@ public class Main {
         System.out.println(ql1);
         NhanVienKinhDoanh nvkd1 = new NhanVienKinhDoanh("NVKD001", "Le Thi B", 4000, 100000, 5);
         System.out.println(nvkd1);
+        ql1.hopBanGiamDoc();
+        nvkd1.chamSocKhachHang();
+
     }
 }
