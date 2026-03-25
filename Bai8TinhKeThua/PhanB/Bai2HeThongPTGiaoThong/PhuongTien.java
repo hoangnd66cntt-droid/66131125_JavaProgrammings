@@ -2,9 +2,9 @@ package Bai8TinhKeThua.PhanB.Bai2HeThongPTGiaoThong;
 public class PhuongTien {
     protected String hangSanXuat;
     protected int namSanXuat;
-    protected int giaBan;
+    protected double giaBan;
 
-    public PhuongTien(String hang, int nam, int gia) {
+    public PhuongTien(String hang, int nam, double gia) {
         this.hangSanXuat = hang;
         this.namSanXuat = nam;
         this.giaBan = gia;
@@ -15,7 +15,7 @@ public class PhuongTien {
     public int getNamSanXuat() { 
         return namSanXuat;
      }
-    public int getGiaBan() { 
+    public double getGiaBan() { 
         return giaBan; 
     }
     public void setHangSanXuat(String hang) { 
