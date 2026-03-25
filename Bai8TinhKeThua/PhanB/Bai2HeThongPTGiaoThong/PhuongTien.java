@@ -18,6 +18,15 @@ public class PhuongTien {
     public int getGiaBan() { 
         return giaBan; 
     }
+    public void setHangSanXuat(String hang) { 
+        this.hangSanXuat = hang; 
+    }
+    public void setNamSanXuat(int nam) { 
+        this.namSanXuat = nam; 
+    }
+    public void setGiaBan(int gia) { 
+        this.giaBan = gia; 
+    }
     public int layVanTocToiDa() {
       return 0;
     }
