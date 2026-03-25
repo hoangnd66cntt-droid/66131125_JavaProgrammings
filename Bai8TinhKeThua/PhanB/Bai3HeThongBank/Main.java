@@ -6,5 +6,9 @@ public class Main {
         tkTk.hienThiThongTin();
         System.out.println("Tien lai du kien: " + String.format("%,.0f", tkTk.tinhLai()));
         tkTk.rutTien(1000000);
+        TaiKhoanThanhToan tkTt = new TaiKhoanThanhToan("TK002", "Phung Thanh D", 36000000, 5000000, 5000);
+        tkTt.hienThiThongTin();
+        tkTt.thanhToanHoaDon("Dien Nuoc", 1000000);
+        tkTt.hienThiThongTin();
     }
 }

@@ -21,7 +21,6 @@ public class TaiKhoanThanhToan extends TaiKhoan {
             System.out.println("Rut thanh cong: " + soTien + " (Phi: " + phiGiaoDich + ")");
         }
     }
-
     public void thanhToanHoaDon(String loaiHoaDon, double soTien) {
         System.out.print("Thanh toan hoa don " + loaiHoaDon + ": ");
         this.rutTien(soTien);
