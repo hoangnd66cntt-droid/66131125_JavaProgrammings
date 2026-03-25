@@ -15,13 +15,13 @@ public class PhuongTien {
         return namSanXuat; }
     public double getGiaBan() { 
         return giaBan; }
-    public void  layVanTocToiDa() {
+    public int layVanTocToiDa() {
       return 0;
     }
-    public void laySoChoNgoi() {
+    public int laySoChoNgoi() {
         return 0;
     }
-    public void toString() {
+    public String toString() {
         return "PhuongTien{" + "hangSanXuat=" + hangSanXuat + ", namSanXuat=" + namSanXuat + ", giaBan=" + giaBan + '}';
     }
 }
