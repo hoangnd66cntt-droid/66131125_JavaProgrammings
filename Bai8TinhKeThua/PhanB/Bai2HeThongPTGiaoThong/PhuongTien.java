@@ -1,8 +1,8 @@
 package Bai8TinhKeThua.PhanB.Bai2HeThongPTGiaoThong;
 public class PhuongTien {
-    protected String hangSanXuat;
-    protected int namSanXuat;
-    protected int giaBan;
+    public String hangSanXuat;
+    public int namSanXuat;
+    public int giaBan;
 
     public PhuongTien(String hang, int nam, int gia) {
         this.hangSanXuat = hang;
