@@ -2,14 +2,14 @@ package Baitap_OOP.BT_Hocsinh;
 
 public class hocsinh {
     private String tenHs;
-    private int tuoiHs;
+    private short tuoiHs;
     private  String lopHs;
-    public hocsinh(String tenHs, int tuoiHs, String lopHs) {
+    public hocsinh(String tenHs, short tuoiHs, String lopHs) {
         this.tenHs = tenHs;
         this.tuoiHs = tuoiHs;
         this.lopHs = lopHs;
     }
-    int getTuoiHs() {
+    short getTuoiHs() {
         return tuoiHs;
     }
     String getTenHs() {
@@ -21,7 +21,7 @@ public class hocsinh {
     void setTenHs(String tenHs) {
         this.tenHs = tenHs;
     }
-    void setTuoiHs(int tuoiHs) {
+    void setTuoiHs(short tuoiHs) {
         this.tuoiHs = tuoiHs;
     }
     void setLopHs(String lopHs) {
