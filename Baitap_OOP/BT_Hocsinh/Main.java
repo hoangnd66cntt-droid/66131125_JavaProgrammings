@@ -67,8 +67,14 @@ public class Main{
     for(hocsinh a: dsHs){
         System.out.println(a.toString());
     }
+    //cau5a
+    for(int i=0;i<=n;i++){
+    hocsinh hstim = dsHs.get(i);
+    if(hstim.getTenHs()=="D"){
+        dsHs.remove(hstim);
+        break;
     }
-    
-
-
+    //cau5b
+}
+ }
 }
