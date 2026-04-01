@@ -49,12 +49,9 @@ public class Main{
         hs.setLopHs(lopHs);
         dsHs.add(hs);
     }
-
-
-
-
-
-
+    //cau3b
+    for(hocsinh a: dsHs){
+        System.out.println(a.toString());
     }
-
+    //cau4a
 }
