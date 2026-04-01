@@ -28,6 +28,7 @@ public class hocsinh {
     public void setLopHs(String lopHs) {
         this.lopHs = lopHs;
     }
+    @Override
     public String toString() {
        return "Tên học sinh: " + tenHs + ", Tuổi: " + tuoiHs + ", Lớp: " + lopHs;
     }
