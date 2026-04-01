@@ -1,6 +1,5 @@
 package Bai11COLLECTIONFRAMEWORK.PhanB.Bai3QLDH;
 import java.util.ArrayList;
-import java.util.List;
 
 public class QuanLiDonHang {
     ArrayList<DonHang> danhSach = new ArrayList<DonHang>();
