@@ -9,9 +9,10 @@ public class Main{
         hocsinh hs2 = new hocsinh("Phung Thanh D", (short) 36, "120yenlang");
         System.out.println(hs1.toString());
         System.out.println(hs2.toString());
+        Scanner sc = new Scanner(System.in);
 /* 
      //bai2b
-     Scanner sc = new Scanner(System.in);
+   
          hocsinh hs3=  new hocsinh();
         System.out.print("Nhapten hoc sinh: ");
         String tenHs3 = sc.nextLine();
@@ -63,4 +64,7 @@ public class Main{
     hs.setLopHs(lopHs);
     dsHs.add(hs);
     //cau4b
+    for(hocsinh a: dsHs){
+        System.out.println(a.toString());
+    }
 }
