@@ -54,4 +54,13 @@ public class Main{
         System.out.println(a.toString());
     }
     //cau4a
+    tenHs = sc.nextLine();
+    tuoiHs = sc.nextShort();
+    sc.nextLine();
+    lopHs = sc.nextLine();
+    hs.setTenHs(tenHs);
+    hs.setTuoiHs(tuoiHs);
+    hs.setLopHs(lopHs);
+    dsHs.add(hs);
+    //cau4b
 }
