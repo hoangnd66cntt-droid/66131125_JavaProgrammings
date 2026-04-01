@@ -20,8 +20,8 @@ public class SanPham {
     public void xuat() {
         System.out.println("---------------------------");
         System.out.println("Ten sanpham: " + tenSp);
-        System.out.println("Don gia: " + String.format("%,.0f", donGia));
-        System.out.println("Giam gia: " + String.format("%,.0f", giamGia));
-        System.out.println("Thue nhap khau: " + String.format("%,.0f", getThueNhapKhau()));
+        System.out.println("Don gia: " + donGia);
+        System.out.println("Giam gia: " + giamGia);
+        System.out.println("Thue nhap khau: " + getThueNhapKhau());
     }
 }
