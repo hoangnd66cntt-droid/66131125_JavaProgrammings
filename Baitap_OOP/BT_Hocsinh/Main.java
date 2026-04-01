@@ -77,7 +77,7 @@ public class Main{
     //cau5b
     for(hocsinh a: dsHs){
         System.out.println(a.toString());
-    }
+    }   
 }
  }
 }
