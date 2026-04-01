@@ -4,6 +4,9 @@ public class hocsinh {
     private String tenHs;
     private short tuoiHs;
     private  String lopHs;
+    public hocsinh() {
+    
+    }
     public hocsinh(String tenHs, short tuoiHs, String lopHs) {
         super();
         this.tenHs = tenHs;

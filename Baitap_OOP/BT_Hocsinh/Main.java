@@ -1,6 +1,6 @@
 package Baitap_OOP.BT_Hocsinh;
 import java.util.Scanner;
-
+import java.util.ArrayList;
 public class Main{
     public static void main(String[] args) {
 
@@ -24,7 +24,7 @@ public class Main{
         System.out.print("Nhap lop hoc sinh: ");
          String lopHs3 = sc.nextLine();
        // hs3.setLopHs(sc.nextLine());
-        System.out.println(hs3);
+        System.out.println(hs3));
         hs3.setTenHs(tenHs3);
         hs3.setTuoiHs(tuoiHs3);
         hs3.setLopHs(lopHs3);
@@ -33,8 +33,8 @@ public class Main{
     System.out.print("Nhap so luong hoc sinh: ");
     int n=sc.nextInt();
     ArrayList<hocsinh> dsHs = new ArrayList<hocsinh>();
-    hocsinh hs= new hocsinh();
-    string tenHs;
+    hocsinh hs = new hocsinh();
+    String tenHs;
     short tuoiHs;
     String lopHs;
     for(int i=0;i<n;i++){
@@ -67,4 +67,8 @@ public class Main{
     for(hocsinh a: dsHs){
         System.out.println(a.toString());
     }
+    }
+    
+
+
 }
