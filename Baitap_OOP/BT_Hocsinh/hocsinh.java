@@ -5,26 +5,27 @@ public class hocsinh {
     private short tuoiHs;
     private  String lopHs;
     public hocsinh(String tenHs, short tuoiHs, String lopHs) {
+        super();
         this.tenHs = tenHs;
         this.tuoiHs = tuoiHs;
         this.lopHs = lopHs;
     }
-    short getTuoiHs() {
+  public  short getTuoiHs() {
         return tuoiHs;
     }
-    String getTenHs() {
+    public String getTenHs() {
             return tenHs;
         }
-        String getLopHs() {
+        public String getLopHs() {
             return lopHs;
      }
-    void setTenHs(String tenHs) {
+    public void setTenHs(String tenHs) {
         this.tenHs = tenHs;
     }
-    void setTuoiHs(short tuoiHs) {
+    public void setTuoiHs(short tuoiHs) {
         this.tuoiHs = tuoiHs;
     }
-    void setLopHs(String lopHs) {
+    public void setLopHs(String lopHs) {
         this.lopHs = lopHs;
     }
     public String toString() {
