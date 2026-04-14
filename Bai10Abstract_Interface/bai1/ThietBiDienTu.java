@@ -17,7 +17,7 @@ abstract class ThietBiDienTu {
     void ketNoiWifi();
     void ngatKetNoi();
 }
-interface CoTheCamUng {
+    interface CoTheCamUng {
     void cham();
     void vuot();
 }
