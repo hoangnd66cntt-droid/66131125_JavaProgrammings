@@ -1,5 +1,8 @@
 package Bai10Abstract_Interface.bai1;
 
+import Bai10Abstract_Interface.bai1.ThietBiDienTu.CoTheCamUng;
+import Bai10Abstract_Interface.bai1.ThietBiDienTu.CoTheKetNoiInternet;
+
 class DienThoaiThongMinh extends ThietBiDienTu implements CoTheKetNoiInternet, CoTheCamUng {
     public DienThoaiThongMinh(String ten, double gia, String hangSanXuat) {
         super(ten, gia, hangSanXuat);
