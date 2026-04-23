@@ -11,4 +11,28 @@ public class SinhVien {
         this.lop = lop;
         this.namSinh = namSinh;
     }
+    public String getMaSV() {
+        return maSV;
+    }
+    void setMaSV(String maSV) {
+        this.maSV = maSV;
+    }
+    public String getHoTen() {
+        return hoTen;
+    }
+    void setHoTen(String hoTen) {
+        this.hoTen = hoTen;
+    }
+    public String getLop() {
+        return lop;
+    }
+    void setLop(String lop) {
+        this.lop = lop;
+    }
+    public int getNamSinh() {
+        return namSinh;
+    }
+    void setNamSinh(int namSinh) {
+        this.namSinh = namSinh;
+    }
 }
