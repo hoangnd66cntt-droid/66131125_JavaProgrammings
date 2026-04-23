@@ -35,10 +35,7 @@ public class SinhVien {
     void setNamSinh(int namSinh) {
         this.namSinh = namSinh;
     }
-    void inThongTin() { // phuong thuc in thong tin sinh vien
-        System.out.println("Ma SV: " + maSV);
-        System.out.println("Ho ten: " + hoTen);
-        System.out.println("Lop: " + lop);
-        System.out.println("Nam sinh: " + namSinh);
-    }
+  public void inThongTin() { // phuong thuc in thong tin sinh vien
+    System.out.println(maSV + " - " + hoTen + " - " + lop + " - " + namSinh);
+}
 }

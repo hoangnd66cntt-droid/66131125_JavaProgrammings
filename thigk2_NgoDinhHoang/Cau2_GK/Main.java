@@ -1,5 +1,6 @@
 package thigk2_NgoDinhHoang.Cau2_GK;
 import java.util.ArrayList;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         ArrayList<SinhVien> dsSv = new ArrayList<>();
@@ -9,5 +10,22 @@ public class Main {
         for (SinhVien sv : dsSv) { // duyet qua tung sinh vien trong danh sach va in thong tin
             sv.inThongTin();    
         }
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhap sinh vien moi:");
+        System.out.print("Ma SV: ");
+        String maSV = sc.nextLine();
+        System.out.print("Ho ten: ");
+        String hoTen = sc.nextLine();
+        System.out.print("Lop: ");
+        String lop = sc.nextLine();
+        System.out.print("Nam sinh: ");
+       int namSinh = Integer.parseInt(sc.nextLine());
+        dsSv.add(new SinhVien(maSV, hoTen, lop, namSinh)); // them sinh vien moi vao danh sach
+        System.out.println("sau khi them sinh vien moi:");
+        for (SinhVien sv : dsSv) { // in lai danh sach sau khi them
+            sv.inThongTin();
+        }
+          sc.close(); // dong scanner sau khi su dung
     }
+  
 }
