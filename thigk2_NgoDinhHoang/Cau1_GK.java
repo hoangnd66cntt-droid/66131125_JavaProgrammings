@@ -20,5 +20,6 @@ public class Cau1_GK {
         } else {
             System.out.println("Phân loại: Béo phì");
         }
+        scanner.close(); // dong scanner sau khi su dung
     }
 }
