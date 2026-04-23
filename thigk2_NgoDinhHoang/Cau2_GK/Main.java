@@ -37,3 +37,5 @@ public class Main {
     }
   
 }
+// tao lop SinhVien voi cac thuoc tinh maSV, hoTen, lop, namSinh va phuong thuc inThongTin de in thong tin sinh vien
+// trong ham main, tao danh sach sinh vien, them 3 sinh vien vao danh sach, in thong tin tung sinh vien, nhap thong tin 1 sinh vien moi tu nguoi dung va them vao danh sach, in lai danh sach sau khi them, in ra cac sinh vien co tuoi > 20 (nam 2026- namSinh)
