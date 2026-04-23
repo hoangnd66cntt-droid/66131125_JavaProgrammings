@@ -35,4 +35,10 @@ public class SinhVien {
     void setNamSinh(int namSinh) {
         this.namSinh = namSinh;
     }
+    void inThongTin() {
+        System.out.println("Ma SV: " + maSV);
+        System.out.println("Ho ten: " + hoTen);
+        System.out.println("Lop: " + lop);
+        System.out.println("Nam sinh: " + namSinh);
+    }
 }
