@@ -23,3 +23,4 @@ public class Cau1_GK {
         scanner.close(); // dong scanner sau khi su dung
     }
 }
+// viet lenh scanner nhap can nang va chieu cao tu nguoi dung, tinh chi so BMI (weight/height^2) va in ra ket qua va phan loai theo chi so BMI
