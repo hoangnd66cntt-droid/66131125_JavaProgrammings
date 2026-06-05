@@ -1,5 +1,4 @@
-package thigk2.NguyenThanhNguyen;
-
+package thigk2_NgoDinhHoang.ontap;
 public class OOP_SP {
 	private String masp, tensp, loaisp;
 	private double gia;
